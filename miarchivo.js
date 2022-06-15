@@ -1,5 +1,6 @@
 
 // descripcion gerenal del programa //
+
 /* 
 Brindará soluciones de atención al público, facilitando presupuestos a medida de cada usuario
 según datos brindados sobre sus neumáticos. Este tipo de consulta es básica en el día a día de la empresa.
