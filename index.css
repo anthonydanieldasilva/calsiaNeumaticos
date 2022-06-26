@@ -1,7 +1,26 @@
 
-.estiloCajaintrocuccion {
-    background-color: rgb(104, 100, 100);
+
+.separador{
+    padding: 2cm;
+    background: linear-gradient(180deg, rgb(59, 57, 57), white);
+}
+h4{
+    text-align: left;
+    text-shadow: 4px 3px #696767;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.cajaPaneldeClientes{
+    
+    padding: 2cm;
+    background: linear-gradient(70deg, rgb(59, 57, 57), white);
+}
+.cajaListado{
     text-align: center;
-    font-size: xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footer{
+    padding: 2cm;
+    background: linear-gradient(360deg, rgb(59, 57, 57), white);
+
 }

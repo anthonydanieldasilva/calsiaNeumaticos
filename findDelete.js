@@ -8,7 +8,6 @@ const clientes = [
     {id: 3, nombre: 'valeria',apellido: 'fasbender',telefono: 15626232},
 ]
 
-
 // ALERT DE BIENVENIDA ADMIN //
 alert("! BIENVENDIO AL PANEL DE CLIENTES !\nPodras aqui manipular la base de datos de los clientes \n \n! Segui las instrucciones ! ");
 
@@ -24,7 +23,7 @@ if(opcionDebusqueda != ""){
                 let idingresado = prompt (`ingresa el ID\nTe daremos los datos que buscas`);
                 if(idingresado != ""){
 
-                    let resultado = clientes.find((idingresado) => idingresado.id === "idingresado");
+                    let resultado = clientes.find((idingresado) => idingresado.id == 'idingresado');
                     console.log(resultado);
                 }
                 alert("! ID NO HALLADO EN BASE DE DATOS !");
@@ -33,7 +32,7 @@ if(opcionDebusqueda != ""){
                 let nombreingresado = prompt (`ingresa el NOMBRE\nTe daremos los datos que buscas`);
                 if(nombreingresado != ""){
 
-                    let resultado = clientes.find((nombreingresado) => nombreingresado.nombre === "nombreingresado");
+                    let resultado = clientes.find((nombreingresado) => nombreingresado.nombre == 'nombreingresado');
                     console.log(resultado);
                 }
                 alert("! NOMBRE NO HALLADO EN BASE DE DATOS !");
