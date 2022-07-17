@@ -2,8 +2,7 @@
 // descripcion gerenal del programa //
 
 /* 
-Brindará soluciones de atención al público, facilitando presupuestos a medida de cada usuario
-según datos brindados sobre sus neumáticos. Este tipo de consulta es básica en el día a día de la empresa.
+Brindará soluciones de atención al vendedor, Este tipo de consulta es básica en el día a día de la empresa.
 Sera adaptado a la industria de la reconstrucción del neumático y el caucho.
 */
 

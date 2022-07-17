@@ -1,7 +1,7 @@
 diseños = [
 
     {
-        "diseño":"Automoviles",
+        "diseño":"Automóviles",
         "imagen":"automoviles.jpeg",
     },
     {
@@ -9,7 +9,7 @@ diseños = [
         "imagen":"pickup.jpeg",
     },
     {
-        "diseño":"Agricola",
+        "diseño":"Agrícola",
         "imagen":"agricola.jpeg",
     },
 

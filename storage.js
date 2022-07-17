@@ -81,3 +81,46 @@ if(localStorage.getItem("diseños")){
 }
 
 // END MOSTRANDO DISEÑOS //
+
+// FETCH  //
+
+let listandoFetch = document.getElementById("listadoFetch");
+
+fetch("https://jsonplaceholder.typicode.com/posts")
+    .then(Response => Response.json())
+    .then(data => {
+        data.forEach((post) => {
+            let li = document.createElement("li");
+
+            li.textContent = post.title;
+
+            listandoFetch.append(li);
+        })
+    })
+    
+// END FETCH  //
+
+// SWEET ALERT with Animate.css//
+window.addEventListener('load', function(){
+
+    Swal.fire({
+
+        title: 'Bienvenido al aplictivo Web\nCALZIA S.A.\n\nApp exclusiva para vendedores',
+        width: 800,
+        padding: '3em',
+        color: '#2e2e30',
+        backdrop: `rgba(0, 0, 0, 0.8)`,
+        confirmButtonColor: '#2e2e30',
+        confirmButtonText: " Ingresar ",
+
+        showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+        },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+        }
+        
+    })
+
+})
+// END SWEET ALERT //
