@@ -14,9 +14,8 @@ body{
 
 /*DIVISOR DE SECCIONES*/
 .separador{
-    padding: 2cm;
-    background: linear-gradient(180deg, rgb(59, 57, 57), white);
-    
+    padding: 4rem;
+    background: linear-gradient(180deg, rgb(59, 57, 57), white); 
 }
 
 /*LOGOTIPO*/
@@ -41,10 +40,23 @@ body{
     border-radius: 10px;
     border: 2.5px solid rgb(59, 57, 57);
 }
+.botoninfo{
+    background: linear-gradient(180deg, rgb(59, 57, 57), rgb(100, 98, 98));
+}
+
+/*CONAINER GENERICO DEL SITIO*/
+.contenedorDeSeccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*PANEL DE CLIENTES*/
 .cajaPaneldeClientes{
-    padding: 2cm;
+    max-width: 1550px;
+    margin: auto;
+    padding: 7cm;
+    padding-bottom: 20rem;
     background: linear-gradient(70deg, rgb(59, 57, 57), white);
     font-family: 'Coda', cursive;
 }
@@ -53,10 +65,17 @@ h4{
     text-shadow: 4px 3px #696767;
     font-family: 'Coda', cursive;
 }
+h2{
+    text-align: center;
+    text-shadow: 1px 1px #696767;
+    font-family: 'Coda', cursive;
+    padding-block: 1cm;
+}
 /*END PANEL DE CLIENTES*/
 
 /*DISEÑOS EN STOCK*/
 .cajaListado{
+    padding-bottom: 5rem;
     text-align: center;
     font-family: 'Coda', cursive;
 }

@@ -100,7 +100,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
     
 // END FETCH  //
 
-// SWEET ALERT with Animate.css//
+// SWEET ALERT - bienvenida Animate.css//
 window.addEventListener('load', function(){
 
     Swal.fire({
@@ -123,4 +123,32 @@ window.addEventListener('load', function(){
     })
 
 })
+
+// SWEET ALERT - boton info//
+
+let botoninformativo = document.getElementById('botoninformativo');
+
+botoninformativo.onclick = () => {
+    
+    Swal.fire({
+        
+        title: 'Aquí vas a encontar información importante\n\n·Novedades impositivas\n·Futuros aumentos\n·Informacion de gerencial',
+        width: 700,
+        padding: '1em',
+        color: '#437327',
+        backdrop: `rgba(0, 0, 0, 0.8)`,
+        confirmButtonColor: '#2e2e30',
+        confirmButtonText: "Leer documentaciòn",
+
+        showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+        },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+        }
+
+    })
+}
+
+
 // END SWEET ALERT //
