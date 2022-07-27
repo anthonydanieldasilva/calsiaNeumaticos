@@ -1,3 +1,22 @@
+/**
+ * Primera entrega Proyecto Final
+ * JavaScript / coderHouse / 2022
+ * 
+ * Dicatado academico: Silma Natera
+ * Tutoria : Jonathan Romero
+ * 
+ * Contenido de script:
+ * ·Manejo integro de Panel clientes
+ * ·conecta con bd datos.js para Mostrar diseños en stock
+ * ·Usa funcion Fetch para Informar novedades posibles
+ *
+ * @version: v1.0.0
+ * @author: Anthony da Silva
+ *
+ * History:
+ *- v1.0.0 – 
+ *  
+ */
 
 //AGREGAR NUEVOS CLIENTES A STORAGE//
 
@@ -149,6 +168,4 @@ botoninformativo.onclick = () => {
 
     })
 }
-
-
 // END SWEET ALERT //

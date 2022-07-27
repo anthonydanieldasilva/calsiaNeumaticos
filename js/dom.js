@@ -1,3 +1,7 @@
+// corresponde a practicas de clases CODERHOUSE //
+// aprobado por tutor - Jonathan Romero //
+
+
 // Modificando saludo inicial //
 // watch in the consol //
 

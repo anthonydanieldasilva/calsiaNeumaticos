@@ -1,11 +1,7 @@
 
+// corresponde a practicas de clases CODERHOUSE //
+// aprobado por tutor - Jonathan Romero //
 // descripcion gerenal del programa //
-
-/* 
-Brindará soluciones de atención al vendedor, Este tipo de consulta es básica en el día a día de la empresa.
-Sera adaptado a la industria de la reconstrucción del neumático y el caucho.
-*/
-
 
 
 // declarando PRECIOS DE REFORMAS segun rodado-medida-diseño //

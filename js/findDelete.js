@@ -1,3 +1,7 @@
+// corresponde a practicas de clases CODERHOUSE //
+// aprobado por tutor - Jonathan Romero //
+
+
 // js dedicado a busquedas y admin de BaseDatos clientes //
 
 

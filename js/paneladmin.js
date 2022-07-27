@@ -1,4 +1,6 @@
-// programa dedicado al perfil administrador //
+// Script dedicado al perfil administrador //
+// corresponde a practicas de clases CODERHOUSE //
+// aprobado por tutor - Jonathan Romero //
 
 /* De uso exclusivo para vendedores. Podran estos ingresar nuevos diseños y medidas */
 
